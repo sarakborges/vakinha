@@ -1,0 +1,28 @@
+.input {
+  width: 100%;
+  padding: var(--size-md);
+
+  border-width: var(--size-xs) 0;
+  border-style: solid;
+  transition: border-bottom-color 0.3s;
+
+  background-color: var(--color-white);
+
+  color: var(--color-black);
+
+  &:not(:disabled) {
+    border-color: var(--color-white);
+
+    &:focus {
+      border-bottom-color: var(--color-main);
+    }
+  }
+
+  &:disabled {
+    color: var(--color-white);
+
+    cursor: default;
+    border-color: var(--color-disabled);
+    background-color: var(--color-disabled);
+  }
+}

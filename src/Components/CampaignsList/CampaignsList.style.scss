@@ -1,0 +1,13 @@
+.campaigns-list {
+  display: flex;
+  place-content: center;
+
+  .campaigns-list-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--size-xl);
+
+    width: var(--body-wrapper-size);
+    padding: var(--size-lg) 0;
+  }
+}

@@ -1,0 +1,47 @@
+.campaign {
+  display: flex;
+  place-content: center;
+
+  background-color: var(--color-main);
+
+  color: var(--color-white);
+
+  .campaign-wrapper {
+    display: flex;
+    flex-flow: column;
+    place-items: center;
+    gap: var(--size-xl);
+
+    width: var(--body-wrapper-size);
+    padding: var(--size-lg) 0;
+
+    .campaign-header {
+      display: flex;
+      flex-flow: column;
+      gap: var(--size-lg);
+
+      width: 100%;
+
+      .campaign-title {
+        text-align: center;
+
+        > .text-wrapper {
+          > * {
+            color: var(--color-white);
+          }
+
+          &:first-child {
+            text-transform: uppercase;
+          }
+        }
+      }
+    }
+
+    .campaign-main {
+      display: flex;
+      gap: var(--size-lg);
+
+      width: 100%;
+    }
+  }
+}

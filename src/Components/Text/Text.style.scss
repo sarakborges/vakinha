@@ -1,0 +1,22 @@
+.text-wrapper {
+  h1 {
+    font-size: var(--size-xl);
+    color: var(--color-title);
+  }
+
+  h2 {
+    font-size: var(--size-lg);
+    color: var(--color-title);
+  }
+
+  h3 {
+    font-size: var(--size-md);
+    font-weight: var(--weight-light);
+    color: var(--color-subtitle);
+  }
+
+  p {
+    font-size: var(--size-md);
+    line-height: var(--line-height-md);
+  }
+}

@@ -1,0 +1,48 @@
+.topbar {
+  position: sticky;
+  top: 0;
+  left: 0;
+  z-index: 99;
+
+  display: flex;
+  place-content: center;
+
+  background-color: var(--color-main);
+
+  .topbar-body {
+    display: flex;
+    place-items: center;
+    place-content: space-between;
+
+    width: var(--body-wrapper-size);
+
+    .logo {
+      color: var(--color-white);
+    }
+
+    > ul {
+      display: flex;
+      place-items: center;
+
+      > li {
+        display: flex;
+        place-items: center;
+
+        > a {
+          display: flex;
+
+          padding: var(--size-md);
+
+          color: var(--color-white);
+
+          transition: background-color 0.3s;
+
+          &:hover {
+            text-decoration: none;
+            background-color: var(--color-main-dark);
+          }
+        }
+      }
+    }
+  }
+}

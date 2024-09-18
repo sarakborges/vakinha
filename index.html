@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hope Campaign</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="./reset.css" />
+
+    <style>
+      :root {
+        --color-main: #3d2bb3;
+        --color-main-light: #ab9dd8;
+        --color-main-dark: #251a6b;
+
+        --color-link: #251a6b;
+        --color-disabled: #837d97;
+
+        --color-title: #3d2bb3;
+        --color-subtitle: #fcfcfc;
+
+        --color-white: #fcfcfc;
+        --color-black: #333333;
+
+        --color-accent: #209da3;
+        --color-accent-light: #64b8bc;
+        --color-accent-dark: #11565a;
+
+        --size-xs: 4px;
+        --size-sm: 8px;
+        --size-md: 16px;
+        --size-lg: 24px;
+        --size-xl: 48px;
+
+        --weight-light: 300;
+        --weight-normal: 400;
+        --weight-bold: 700;
+
+        --line-height-single: 1;
+        --line-height-sm: 1.2;
+        --line-height-md: 1.5;
+        --line-height-lg: 1.8;
+        --line-height-double: 2;
+
+        --body-wrapper-size: clamp(
+          calc(var(--size-xl) * 8),
+          calc(var(--size-xl) * 24),
+          100%
+        );
+      }
+    </style>
+  </head>
+  <body>
+    <div id="app"></div>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>

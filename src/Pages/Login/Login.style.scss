@@ -1,0 +1,11 @@
+.login-wrapper {
+  display: flex;
+  place-content: center;
+  place-items: center;
+
+  min-height: 100vh;
+
+  background-color: var(--color-main);
+
+  color: var(--color-white);
+}

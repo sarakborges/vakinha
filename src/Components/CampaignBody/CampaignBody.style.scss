@@ -1,0 +1,15 @@
+.campaign-body {
+  width: clamp(calc(var(--size-xl) * 8), calc(var(--size-xl) * 16), 100%);
+
+  .campaign-picture {
+    display: flex;
+
+    > img {
+      aspect-ratio: 2/1;
+
+      border-radius: var(--size-sm);
+      object-fit: cover;
+      object-position: center;
+    }
+  }
+}

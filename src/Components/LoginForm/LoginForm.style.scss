@@ -1,0 +1,41 @@
+.login_form-wrapper {
+  display: flex;
+  flex-flow: column;
+  gap: var(--size-lg);
+
+  width: calc(var(--size-xl) * 10);
+  max-width: 100%;
+  padding: var(--size-lg);
+
+  background-color: var(--color-main-light);
+
+  > header {
+    display: flex;
+    flex-flow: column;
+    gap: var(--size-sm);
+  }
+
+  > form {
+    display: flex;
+    flex-flow: column;
+    gap: var(--size-sm);
+  }
+
+  .login-buttons {
+    display: flex;
+    flex-flow: column;
+    place-items: center;
+    gap: var(--size-sm);
+
+    > button {
+      width: 100%;
+    }
+  }
+
+  > footer {
+    display: flex;
+    flex-flow: column;
+    place-items: center;
+    gap: var(--size-md);
+  }
+}

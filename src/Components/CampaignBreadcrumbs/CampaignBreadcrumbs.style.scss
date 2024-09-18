@@ -1,0 +1,14 @@
+.campaign-breadcrumbs {
+  > ul {
+    display: flex;
+    gap: var(--size-sm);
+
+    > li {
+      display: flex;
+
+      > a {
+        color: var(--color-white);
+      }
+    }
+  }
+}
