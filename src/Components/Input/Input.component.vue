@@ -2,11 +2,11 @@
 
 <script setup lang="ts">
 const { type, disabled } = defineProps<{
-  type?: "text" | "number";
-  placeholder?: string;
-  disabled?: boolean;
-  name: string;
-}>();
+  type?: 'text' | 'number'
+  placeholder?: string
+  disabled?: boolean
+  name: string
+}>()
 </script>
 
 <template>

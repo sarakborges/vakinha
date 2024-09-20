@@ -1,9 +1,9 @@
 <style src="./CampaignBody.style.scss" lang="sass" scoped />
 
 <script setup lang="ts">
-import CampaignStore from "@/Stores/Campaign.store";
+import CampaignStore from '@/Stores/Campaign.store'
 
-let { campaignData } = CampaignStore;
+let { campaignData } = CampaignStore
 </script>
 
 <template>

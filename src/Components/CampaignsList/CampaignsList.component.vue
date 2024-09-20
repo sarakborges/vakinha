@@ -1,24 +1,24 @@
 <style src="./CampaignsList.style.scss" lang="sass" scoped />
 
 <script setup lang="ts">
-import { useRoute, onBeforeRouteUpdate } from "vue-router";
+import { useRoute, onBeforeRouteUpdate } from 'vue-router'
 
-import { CAMPAIGN } from "@/Utils/Router/Routes";
+import { CAMPAIGN } from '@/Utils/Router/Routes'
 
-import { CAMPAIGN_NOT_FOUND } from "@/Utils/Texts/App.texts";
+import { CAMPAIGN_NOT_FOUND } from '@/Utils/Texts/App.texts'
 
-import CampaignsListStore from "@/Stores/CampaignsList.store";
+import CampaignsListStore from '@/Stores/CampaignsList.store'
 
-import Link from "@/Components/Link/Link.component.vue";
+import Link from '@/Components/Link/Link.component.vue'
 
-let { isLoading, getCampaignsListData, campaignsListData } = CampaignsListStore;
+let { isLoading, getCampaignsListData, campaignsListData } = CampaignsListStore
 
-const route = useRoute();
-await getCampaignsListData(Number(route.params.page));
+const route = useRoute()
+await getCampaignsListData(Number(route.params.page))
 
 onBeforeRouteUpdate(async (to) => {
-  await getCampaignsListData(Number(to.params.page));
-});
+  await getCampaignsListData(Number(to.params.page))
+})
 </script>
 
 <template>

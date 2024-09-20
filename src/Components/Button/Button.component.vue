@@ -2,12 +2,12 @@
 
 <script setup lang="ts">
 const { type, disabled } = defineProps<{
-  type?: "button" | "submit" | "reset";
-  primary?: boolean;
-  secondary?: boolean;
-  disabled?: boolean;
-  form?: string;
-}>();
+  type?: 'button' | 'submit' | 'reset'
+  primary?: boolean
+  secondary?: boolean
+  disabled?: boolean
+  form?: string
+}>()
 </script>
 
 <template>
@@ -16,7 +16,7 @@ const { type, disabled } = defineProps<{
       [
         'button',
         Boolean(primary) || !Boolean(secondary) ? 'primary' : '',
-        Boolean(secondary) && !Boolean(primary) ? 'secondary' : '',
+        Boolean(secondary) && !Boolean(primary) ? 'secondary' : ''
       ].join(' ')
     "
     :type="type || 'button'"

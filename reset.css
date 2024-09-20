@@ -114,7 +114,7 @@ blockquote:before,
 blockquote:after,
 q:before,
 q:after {
-  content: "";
+  content: '';
   content: none;
 }
 table {
@@ -136,7 +136,7 @@ img {
   box-sizing: border-box;
 }
 body {
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-optical-sizing: auto;
   font-weight: var(--weight-normal);
   font-style: normal;

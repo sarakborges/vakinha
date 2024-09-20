@@ -1,1 +1,1 @@
-export type ResultType<T> = T | undefined;
+export type ResultType<T> = T | undefined

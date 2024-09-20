@@ -1,13 +1,13 @@
 <style src="./CampaignBreadcrumbs.style.scss" lang="sass" scoped />
 
 <script setup lang="ts">
-import { HOME } from "@/Utils/Router/Routes";
+import { HOME } from '@/Utils/Router/Routes'
 
-import Text from "@/Components/Text/Text.component.vue";
-import Link from "@/Components/Link/Link.component.vue";
-import CampaignStore from "@/Stores/Campaign.store";
+import Text from '@/Components/Text/Text.component.vue'
+import Link from '@/Components/Link/Link.component.vue'
+import CampaignStore from '@/Stores/Campaign.store'
 
-let { campaignData } = CampaignStore;
+let { campaignData } = CampaignStore
 </script>
 
 <template>

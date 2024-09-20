@@ -2,9 +2,9 @@
 
 <script setup lang="ts">
 const { name, params } = defineProps<{
-  name: string;
-  params?: any;
-}>();
+  name: string
+  params?: any
+}>()
 </script>
 
 <template>

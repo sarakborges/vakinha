@@ -1,11 +1,11 @@
 <style src="./Topbar.style.scss" lang="sass" scoped />
 
 <script setup lang="ts">
-import { TOPBAR_MENU, CREATE_CAMPAIGN } from "@/Utils/Data/Topbar.data";
+import { TOPBAR_MENU, CREATE_CAMPAIGN } from '@/Utils/Data/Topbar.data'
 
-import Text from "@/Components/Text/Text.component.vue";
-import Link from "@/Components/Link/Link.component.vue";
-import Button from "@/Components/Button/Button.component.vue";
+import Text from '@/Components/Text/Text.component.vue'
+import Link from '@/Components/Link/Link.component.vue'
+import Button from '@/Components/Button/Button.component.vue'
 </script>
 
 <template>

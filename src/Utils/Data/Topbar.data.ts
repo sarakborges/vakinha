@@ -1,23 +1,23 @@
 export const TOPBAR_MENU = [
   {
     TEXT: `Home`,
-    TO: "Home",
+    TO: 'Home'
   },
 
   {
     TEXT: `Campanhas ativas`,
-    TO: "CampaignsList",
+    TO: 'CampaignsList',
     PARAMS: {
-      page: 1,
-    },
+      page: 1
+    }
   },
 
   {
     TEXT: `Minha conta`,
-    TO: "Login",
-  },
-];
+    TO: 'Login'
+  }
+]
 
 export const CREATE_CAMPAIGN = {
-  TEXT: `Criar nova campanha`,
-};
+  TEXT: `Criar nova campanha`
+}

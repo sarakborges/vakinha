@@ -6,6 +6,6 @@ export const LOGIN_TEXTS = {
 
   FORM: {
     USERNAME: `Usuário`,
-    PASSWORD: `Senha`,
-  },
-};
+    PASSWORD: `Senha`
+  }
+}
