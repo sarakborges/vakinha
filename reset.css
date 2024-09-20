@@ -136,8 +136,6 @@ img {
   box-sizing: border-box;
 }
 body {
-  font-family: 'Montserrat', sans-serif;
   font-optical-sizing: auto;
-  font-weight: var(--weight-normal);
   font-style: normal;
 }

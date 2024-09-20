@@ -1,4 +1,4 @@
-<style src="./App.style.scss" lang="sass" scoped />
+<style src="./App.style.scss" lang="sass" />
 
 <template>
   <RouterView />
