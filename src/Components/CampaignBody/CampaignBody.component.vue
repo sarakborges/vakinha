@@ -9,7 +9,7 @@ let { campaignData } = CampaignStore
 <template>
   <section class="campaign-body">
     <picture class="campaign-picture">
-      <img :src="`/assets/campaigns/${campaignData.id}.jpg`" />
+      <img :src="`/campaigns/${campaignData.id}.jpg`" />
     </picture>
   </section>
 </template>
